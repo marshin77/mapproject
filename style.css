@@ -1,0 +1,58 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.map-div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#search {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: 9999;
+    right: 20px;
+    top: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid dodgerblue;
+}
+
+#search .row {
+    width: 100%;
+}
+
+#search input {
+    width: 99%;
+    height: 38px;
+    border:1px solid dodgerblue;
+}
+
+#search ul {
+    list-style: none;
+    padding: 0;
+}
+
+#search ul li {
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+#search-btn{
+    position: absolute;
+    z-index: 50000;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+#search-btn:hover{
+    transform: scale(1.1);
+}
