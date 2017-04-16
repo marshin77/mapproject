@@ -13,7 +13,7 @@ body, html {
 }
 
 #search {
-    width: 400px;
+    width: 80%;
     height: auto;
     position: absolute;
     z-index: 9999;
